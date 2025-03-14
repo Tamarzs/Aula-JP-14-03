@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 08:08:34 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjc7MjAyNS0wMy0xNDsiMDg6MDM6NDUgIjsyMTA2"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjc7MjAyNS0wMy0xNDsiMDg6MDg6MzQgIjsxOzIyMTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome: &quot;" newline="False"/>
+            <input variable="nome"/>
+            <output expression="&quot;Seja bem vindo, &quot; &amp;nome" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
