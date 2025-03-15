@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 09:10:30 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjc7MjAyNS0wMy0xNDsiMDg6NTA6NDggIjsyMTEx"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjc7MjAyNS0wMy0xNDsiMDk6MTA6MzAgIjsxOzIyMDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ums" type="Integer" array="False" size=""/>
+            <assign variable="ums" expression="100"/>
+            <declare name="dols" type="Integer" array="False" size=""/>
+            <assign variable="dols" expression="200"/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <assign variable="nome" expression="&quot;Josef&quot;"/>
+            <declare name="sobrenome" type="String" array="False" size=""/>
+            <assign variable="sobrenome" expression="&quot;Stalin&quot;"/>
+            <declare name="vivo" type="Boolean" array="False" size=""/>
+            <assign variable="vivo" expression="False"/>
+            <declare name="gay" type="Boolean" array="False" size=""/>
+            <assign variable="gay" expression="True"/>
+            <output expression="&quot;dols: &quot;&amp;dols" newline="True"/>
+            <output expression="&quot;Sobrenome: &quot; &amp;sobrenome" newline="True"/>
+            <output expression="&quot;gay: &quot; &amp;gay" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
